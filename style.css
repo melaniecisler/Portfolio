@@ -1,0 +1,68 @@
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+   
+  }
+  
+  
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  
+  
+  .navbar-brand {
+    height: 20px;
+  
+  }
+  
+  
+  nav ul li {
+     width: 100%; }
+  
+  nav ul li a {
+     display: block;
+     width: 100%; }
+  
+  
+  .nav-item  {
+    font-size: 20px;
+  }
+  
+  body {
+   background-color: #333300;
+   color: #FFFFFF;
+  }
+  
+  h2{
+      border-bottom: 1px solid #000;
+      height: 20px;
+      overflow: visible;
+      display: block;
+      width: 100%;
+  }
+  
+  h2 span{
+      display: inline-block;
+      background: #fff;
+      height: 21px;
+  }
+
+ 
